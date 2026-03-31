@@ -1,0 +1,5 @@
+salario = float(input("Escreva o seu salário mensal: "))
+porcentagem = float(input("Escreva o porcentual de reajuste: "))
+reajuste = porcentagem / 100 * salario 
+total = salario + reajuste
+print("Seu reajuste salarial é de:",total)
