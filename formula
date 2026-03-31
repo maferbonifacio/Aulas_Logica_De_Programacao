@@ -1,0 +1,18 @@
+print("Vamos calcular!")
+pergunta = int(input("1, Se você quer calcular o volume de uma Lata de Óleo, ou 2 se quer a de uma Caixa de Papelão?: "))
+
+if pergunta == 1:
+    raio = float(input("Digite o valor do Raio: "))
+    alturaraio = float(input("Digite o valor da altura do Raio: "))
+    volume = 3.14159 * raio**2 * alturaraio
+    print("O volume é de:", volume)
+    
+elif pergunta == 2:
+    alturapapelao = float(input("Digite o valor da altura do Papelão: "))
+    largura = float(input("Digite o valor da Largura do Papelão: "))
+    comprimento = float(input("Digite o valor do comprimento do Papelão: "))
+    volume2 = alturapapelao * largura * comprimento
+    print("O volume é de:", volume2)
+
+else:
+    print("Opção inválida!")
