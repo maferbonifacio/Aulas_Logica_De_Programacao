@@ -1,0 +1,6 @@
+p = float(input("Preço: "))
+d = float(input("Km/L: "))
+km = float(input("Distância: "))
+
+print("Litros:", km/d)
+print("Custo:", (km/d)*p)
