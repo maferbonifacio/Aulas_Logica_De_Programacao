@@ -1,0 +1,17 @@
+print("Vamos calcular!")
+opcao = int(input("Escolha 1, se voce quer a área de um retângulo, ou 2 se quer a area de um triângulo: "))
+
+if opcao == 1:
+    base = float(input("Digite a base do retângulo:"))
+    altura = float(input("Digite a altura do retângulo:"))
+    arearetangulo = base*altura
+    print("A área do retângulo é:", arearetangulo)
+    
+elif opcao == 2:
+    base = float(input("Digite a base do triângulo:"))
+    altura = float(input("Digite a altura do triângulo:"))
+    areatriangulo = (base*altura)/2
+    print("A área do triângulo é:", areatriangulo)
+    
+else:
+    print("Opção inválida!")
