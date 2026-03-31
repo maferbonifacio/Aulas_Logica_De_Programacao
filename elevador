@@ -1,0 +1,19 @@
+capacidade = str(input('Digite a capacidade do Elevador: '))
+peso1 = float(input("Digite o peso da primeira pessoa: "))
+peso2 = float(input("Digite o peso da segunda pessoa: "))
+peso3 = float(input("Digite o peso da terceira pessoa: "))
+peso4 = float(input("Digite o peso da quarta pessoa: "))
+peso5 = float(input("Digite o peso da quinta pessoa: "))
+
+total = (peso1 + peso2 + peso3 + peso4 + peso5) 
+
+
+if total > 700
+    print("Excedeu a carga máxima permitida!")
+
+else 
+    print("Está liberado para subir!")    
+
+
+
+
